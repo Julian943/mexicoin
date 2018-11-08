@@ -12,8 +12,8 @@ var jsDest = '../prod/js';
 var cssFiles = 'css/**/*.css'
 var cssDest = '../prod/css';
 
-var srcHtmlFiles = 'src/**/*.html'
-var srcJsFiles = 'src/**/*.js'
+var srcHtmlFiles = 'html/**/*.html'
+var srcJsFiles = 'html/**/*.js'
 var srcDest = '../prod/html';
 
 gulp.task('clean', () => del(['dist']));
